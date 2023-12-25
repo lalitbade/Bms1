@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+
+}
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-height: 64px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+    background-color: white;
+}
+.logo img{
+    max-height: 50px;
+    height: auto;
+    max-width: 135px;
+    width: auto;
+    padding-top: 18px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(27, 26, 26);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.searchbar{
+    width: 540px;
+    
+    height: 30px;
+   
+    border: 1px solid rgb(238, 238, 238);
+    background-color: rgb(255, 255, 255);
+}
+.sign{
+    height: 30px;
+    
+    width: 73px;
+    
+    border-radius: 4px;
+    border: 1px solid rgb(248, 68, 100);
+    background-color:rgb(248, 68, 100);
+    font-size: 12px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+::placeholder{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.hyd{
+    display: flex;
+    flex-direction: row;
+}
+.search2{
+    height: 40px;
+    
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 245, 245);
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.section{
+    padding-right: 320px;
+    width: 500px;
+    
+    height: 40px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: sans-serif;
+    align-items: center;
+    font-weight: 400;
+    color: rgb(51,51,51);
+}
+.gifts{
+    width: 330px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(51,51,51);
+
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+   
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    padding-top:5px;
+    
+}
+.ban img{
+    max-height:320px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+.addon{
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    padding-top: 1px;
+}
+.ban2 img{
+    max-height:100px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+    border-radius: 25px;
+}
+.title{
+    margin: 10px;
+    height: 30px;
+    
+    width: 100%;
+   
+}
+p{
+    font-size: 26px;
+    color: rgb(51,51,51);
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 90px;
+}
+.movies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    
+    width: 100%;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+.mov img{
+    max-height: 375px;
+    height: auto;
+    max-width: 221px;
+    width: auto;
+    border-radius: 25px;
+}
+.mov1 img{
+    max-height: 375px;
+    height: auto;
+    max-width: 221px;
+    width: auto;
+    border-radius: 25px
+}
+.mov2 img{
+    max-height: 375px;
+    height: auto;
+    max-width: 221px;
+    width: auto;
+    border-radius: 25px
+}
+.mov3 img{
+    max-height: 375px;
+    height: auto;
+    max-width: 221px;
+    width: auto;
+    border-radius: 25px
+}
+.mov4 img{
+    max-height: 375px;
+    height: auto;
+    max-width: 221px;
+    width: auto;
+    border-radius: 25px
+}
+.prem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    
+    width: 100%;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-color: rgb(43, 49, 72);
+    padding-top: 30px;
+}
+.prem img{
+
+    max-height: 300px;
+    height: auto;
+    max-width: 100%;
+    width: auto; 
+}
+.prem2{
+    height: 100%;
+    
+    
+    
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(43, 49, 72);
+}
+.pr1 img{
+    max-height: 331px;
+    height: auto;
+    max-width: 221px;
+    width: auto;
+    background-color:(43, 49, 72) ;
+    border-radius: 30px;
+}
+.pr2 img{
+    max-height: 331px;
+    height: auto;
+    max-width: 221px;
+    width: auto;
+    background-color:(43, 49, 72) ;
+    border-radius: 30px;
+}
+.pr3 img{
+    max-height: 331px;
+    height: auto;
+    max-width: 221px;
+    width: auto;
+    background-color:(43, 49, 72) ;
+    border-radius: 30px;
+}
+.pr4 img{
+    max-height: 331px;
+    height: auto;
+    max-width: 221px;
+    width: auto;
+    background-color:(43, 49, 72) ;
+    border-radius: 30px;
+}
+.pr5 img{
+    max-height: 331px;
+    height: auto;
+    max-width: 221px;
+    width: auto;
+    background-color:(43, 49, 72) ;
+    border-radius: 30px;
+}
